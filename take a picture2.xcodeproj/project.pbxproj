@@ -13,6 +13,8 @@
 		EAEBD51D26D50CAB0006C6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEBD51B26D50CAB0006C6EE /* Main.storyboard */; };
 		EAEBD51F26D50CAC0006C6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEBD51E26D50CAC0006C6EE /* Assets.xcassets */; };
 		EAEBD52226D50CAC0006C6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEBD52026D50CAC0006C6EE /* LaunchScreen.storyboard */; };
+		EAEBD52A26D51BB20006C6EE /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBD52926D51BB20006C6EE /* CheckInternet.swift */; };
+		EAEBD52C26D51E750006C6EE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBD52B26D51E750006C6EE /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EAEBD51E26D50CAC0006C6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAEBD52126D50CAC0006C6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAEBD52326D50CAC0006C6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEBD52926D51BB20006C6EE /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		EAEBD52B26D51E750006C6EE /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EAEBD51526D50CAB0006C6EE /* AppDelegate.swift */,
 				EAEBD51726D50CAB0006C6EE /* SceneDelegate.swift */,
 				EAEBD51926D50CAB0006C6EE /* ViewController.swift */,
+				EAEBD52926D51BB20006C6EE /* CheckInternet.swift */,
+				EAEBD52B26D51E750006C6EE /* Map.swift */,
 				EAEBD51B26D50CAB0006C6EE /* Main.storyboard */,
 				EAEBD51E26D50CAC0006C6EE /* Assets.xcassets */,
 				EAEBD52026D50CAC0006C6EE /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEBD52C26D51E750006C6EE /* Map.swift in Sources */,
 				EAEBD51A26D50CAB0006C6EE /* ViewController.swift in Sources */,
+				EAEBD52A26D51BB20006C6EE /* CheckInternet.swift in Sources */,
 				EAEBD51626D50CAB0006C6EE /* AppDelegate.swift in Sources */,
 				EAEBD51826D50CAB0006C6EE /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76523AJ5YV;
 				INFOPLIST_FILE = "take a picture2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76523AJ5YV;
 				INFOPLIST_FILE = "take a picture2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
